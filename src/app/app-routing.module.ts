@@ -5,17 +5,17 @@ import { ListaViagemComponent } from './lista-viagem/lista-viagem.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-import { NgModule } from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
   {path:'', component:HeaderComponent},
   {path:'', component:FooterComponent},
-  {path:'', component:ListaViagemComponent},
-  {path:'', component:ExcluiViagemComponent},
-  {path:'', component:DetalhesViagemComponent},
-  {path:'', component:CadastraViagemComponent}
+  {path:'lista-viagem', component:ListaViagemComponent},
+  {path:'exclui-viagem', component:ExcluiViagemComponent},
+  {path:'detalhes-viagem', component:DetalhesViagemComponent},
+  {path:'cadastra-viagem', component:CadastraViagemComponent}
 ];
 
 @NgModule({
