@@ -9,10 +9,7 @@ import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
-  {path:'', component:HeaderComponent},
-  {path:'', component:FooterComponent},
-  {path:'lista-viagem', component:ListaViagemComponent},
+  {path:'', component:ListaViagemComponent},
   {path:'exclui-viagem', component:ExcluiViagemComponent},
   {path:'detalhes-viagem', component:DetalhesViagemComponent},
   {path:'cadastra-viagem', component:CadastraViagemComponent}
